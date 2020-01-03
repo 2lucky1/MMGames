@@ -1,0 +1,27 @@
+/.metadata/
+/.recommenders/
+
+# Compiled class file
+*.class
+
+# To avoid txt files
+*.txt
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/bin/

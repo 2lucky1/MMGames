@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MMGames
+Bundle-SymbolicName: MMGames;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.apache.felix.scr,
+ org.eclipse.equinox.util,
+ org.eclipse.equinox.event,
+ org.eclipse.equinox.registry,
+ org.eclipse.osgi
+Automatic-Module-Name: MMGames
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-Activator: com.mmg.activator.Activator
+Export-Package: com.mmg.interfaces
+Bundle-ActivationPolicy: lazy
