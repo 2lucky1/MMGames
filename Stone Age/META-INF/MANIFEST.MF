@@ -4,7 +4,7 @@ Bundle-Name: Stone Age
 Bundle-SymbolicName: com.mmg.game.stone_age;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
- MMGames,
+ com.mmg.mmgames,
  org.eclipse.swt,
  org.eclipse.ui.workbench
 Automatic-Module-Name: com.mmg.game.stone_age

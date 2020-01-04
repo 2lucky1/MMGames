@@ -56,7 +56,7 @@ public class MainMenuModel implements Observable {
 			if(gameName.equals(nameFromBundle)) {
 				try {
 					System.out.println("Start game bundle: " + bundle.toString());
-					bundle.start();
+					bundle.start(Bundle.START_TRANSIENT);
 				} catch (BundleException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
