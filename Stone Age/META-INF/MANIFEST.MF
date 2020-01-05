@@ -10,5 +10,5 @@ Require-Bundle: org.eclipse.core.runtime,
 Automatic-Module-Name: com.mmg.game.stone_age
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: com.mmg.game.stone_age
-Bundle-Activator: StoneAgeActivator
+Bundle-Activator: com.mmg.game.activator.StoneAgeActivator
 Bundle-ActivationPolicy: lazy

@@ -11,8 +11,6 @@ public class MainMenuController implements Observer{
 	private MainMenuModel _model;
 	private MainMenuView _view;
 	
-	private static MainMenuController _instance;
-	
 	public MainMenuController(MainMenuModel model, MainMenuView view) {
 		this._model = model;
 		this._view = view;

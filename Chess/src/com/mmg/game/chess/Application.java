@@ -1,4 +1,4 @@
-package com.mmg.chess;
+package com.mmg.game.chess;
 
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
