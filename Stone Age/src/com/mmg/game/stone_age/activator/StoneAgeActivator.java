@@ -1,4 +1,4 @@
-package com.mmg.game.activator;
+package com.mmg.game.stone_age.activator;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
