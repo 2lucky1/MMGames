@@ -1,8 +1,8 @@
-package com.mmg.game.stone_age.activator;
+package com.mmg.game.stoneage.activator;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import com.mmg.game.stone_age.StoneAgeMainController;
+import com.mmg.game.stoneage.logic.StoneAgeMainController;
 
 public class StoneAgeActivator implements BundleActivator {
 
