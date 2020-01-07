@@ -1,14 +1,16 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Stone Age
-Bundle-SymbolicName: com.mmg.game.stone_age;singleton:=true
+Bundle-SymbolicName: com.mmg.game.stoneage;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  com.mmg.mmgames,
  org.eclipse.swt,
- org.eclipse.ui.workbench
-Automatic-Module-Name: com.mmg.game.stone_age
+ org.eclipse.ui.workbench,
+ org.eclipse.jface,
+ org.eclipse.ui
+Automatic-Module-Name: com.mmg.game.stoneage
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: com.mmg.game.stone_age
-Bundle-Activator: com.mmg.game.stone_age.activator.StoneAgeActivator
+Export-Package: com.mmg.game.stoneage
+Bundle-Activator: com.mmg.game.stoneage.activator.StoneAgeActivator
 Bundle-ActivationPolicy: lazy

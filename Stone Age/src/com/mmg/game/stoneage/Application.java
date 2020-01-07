@@ -1,4 +1,4 @@
-package com.mmg.game.stone_age;
+package com.mmg.game.stoneage;
 
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
@@ -8,9 +8,10 @@ import org.eclipse.equinox.app.IApplicationContext;
  */
 public class Application implements IApplication {
 
+	public static final String PLUGIN_ID = "com.mmg.game.stoneage"; 
+	
 	@Override
 	public Object start(IApplicationContext context) throws Exception {
-		System.out.println("Hello RCP World!");
 		return IApplication.EXIT_OK;
 	}
 

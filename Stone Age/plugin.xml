@@ -7,9 +7,18 @@
          point="org.eclipse.core.runtime.applications">
       <application>
          <run
-               class="com.mmg.game.stone_age.Application">
+               class="com.mmg.game.stoneage.Application">
          </run>
       </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.mmg.game.stoneage.views.StoneAgeView"
+            id="com.mmg.stoneage.views.stoneageview"
+            name="StoneAgeView"
+            restorable="true">
+      </view>
    </extension>
 
 </plugin>
