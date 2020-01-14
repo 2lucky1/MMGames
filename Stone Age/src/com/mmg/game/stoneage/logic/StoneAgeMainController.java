@@ -56,7 +56,7 @@ public class StoneAgeMainController implements Game{
 	        page.hideView(view);
 	    }
 	    try {
-	    	StoneAgeModel gameModel = new StoneAgeModel();
+	    	StoneAgeModelImpl gameModel = new StoneAgeModelImpl();
 	    	page.showView(StoneAgeView.ID);
 	    	StoneAgeView stoneAgeView = (StoneAgeView) page.getActivePart();
 //	    	MainMenuController menuController = new MainMenuController(menuModel, menuView);
